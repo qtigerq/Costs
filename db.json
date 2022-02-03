@@ -1,29 +1,31 @@
 {
-    "projects": [],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infra"
-        },
-        {
-            "id": 2,
-            "name": "Design"
-        },
-        {
-            "id": 3,
-            "name": "Planejamento"
-        },
-        {
-            "id": 4,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 5,
-            "name": "Marketing"
-        },
-        {
-            "id": 6,
-            "name": "SocialMedia"
-        }
-    ]
+  "projects": [
+
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Design"
+    },
+    {
+      "id": 3,
+      "name": "Planejamento"
+    },
+    {
+      "id": 4,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 5,
+      "name": "Marketing"
+    },
+    {
+      "id": 6,
+      "name": "SocialMedia"
+    }
+  ]
 }
