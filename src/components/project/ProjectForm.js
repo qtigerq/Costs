@@ -27,7 +27,7 @@ const ProjectForm = ({buttonText}) => {
     return (
         <form className={styles.form}>
             <Input type='text' text='Nome do Projeto' name='nome' placeholder='Insira o nome do projeto'/>
-            <Input type='number' text='Orçamento total' name='orcamento_total' placeholder='Insira o orçamento total'/>
+            <Input type='number' text='Orçamento total' name='budget' placeholder='Insira o orçamento total'/>
             <Select name='category_id' text='Selecione a categoria' options={categories}/>
             <SubmitButton text={buttonText}/>
         </form>
