@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;                         /*Espaçar entre cada item*/
+    background-color: #222;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;                                       /*Retirar os marcadores de lista*/
+    align-items: center;                                    /*Alinhar na vertical*/
+}
+
+.item {
+    margin-right: 1em;                                      /*Afastar os itens entre si*/
+
+}
+
+.item a{
+    color: #FFF;
+    text-decoration: none;                                  /*Tirar o sublinhado*/
+}
+
+.item a:hover{
+    color: #FFBB33;
+}

@@ -1,0 +1,34 @@
+.footer {
+    background-color: #222;
+    color: #FFF;
+    padding: 3em;                                   /*Espaçamento em todos os lados para ficar mais centralizado*/
+    text-align: center;
+}
+
+.social_list {                                      /*Usa-se o '_' em vez do '-' pois o React não consegue interpetrar o - quando se usa o css module*/
+    display: flex;
+    justify-content: center;                        /*Centraliza tudo na horizontal*/
+    list-style-type: none;                          /*Retira os marcadores de lista*/
+}
+
+.social_list li {
+    margin: 0 1em;                                  /*Margens laterais para espaçar os icones entre eles*/
+}
+
+.social_list li:hover {
+    color: #FFBB33;
+}
+
+.social_list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 2em;                                /*Afasta o copyright do social list*/
+}
+
+.copyright span{
+    font-weight: bold;
+    color: #FFBB33;
+}

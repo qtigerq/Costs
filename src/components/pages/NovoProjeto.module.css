@@ -1,0 +1,13 @@
+.novoprojeto_container {
+    width: 450px;
+    padding: 3em;                                       /*Espaçamento interno do conteúdo*/
+    margin: 0 auto;                                     /*Centralizar*/
+}
+
+.novoprojeto_container h1 {
+    margin-bottom: 0.5em;                               /*Afastar o título do parágrafo abaixo dele*/
+}
+
+.novoprojeto_container p{
+    color: #7b7b7b;
+}

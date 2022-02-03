@@ -1,0 +1,16 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;                         /*Afasta os inputs*/
+}
+
+.form_control label {
+    margin-bottom: 0.6em;                       /*Afasta a label do input*/
+    font-weight: bold;
+}
+
+.form_control select{
+    padding: 0.7em;
+    border-radius: 0px;
+    border: none;
+}
