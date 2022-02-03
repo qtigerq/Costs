@@ -6,7 +6,7 @@ import styles from './NewProject.module.css'
 
 const NewProject = () => {
     
-    const history = useNavigate();
+    const navigate = useNavigate();
 
     const createPost = (project) => {                                   //Metodo para postar dados no BD
         
@@ -25,7 +25,7 @@ const NewProject = () => {
         .then((resp) => resp.json())                                        //Recebe uma resposta e transforma ela em JSON
         .then((data) => {                                                   //
             console.log(data)
-            history('/projects', {message: 'Projeto criado com sucesso!'})           //redirecionamento com mensagem
+            navigate('/projects', { state: {message: 'Projeto criado com sucesso!'}})           //redirecionamento com mensagem
         })
         .catch(err => console.log(err))                                     //Recebe um possível erro que der no servidor
     }
