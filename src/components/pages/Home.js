@@ -1,16 +1,16 @@
-import styles from './Inicio.module.css'
+import styles from './Home.module.css'
 import savings from '../../img/savings.svg'
 import LinkButton from '../layout/LinkButton'
 
-const Inicio = () => {
+const Home = () => {
     return (
-        <section className={styles.inicio_container}>
+        <section className={styles.home_container}>
             <h1>Bem-vindo ao <span>Costs</span></h1>
             <p>Comece a gerenciar os seus projetos agora mesmo!</p>
-            <LinkButton to='/novoprojeto' text='Criar Projeto'/>
+            <LinkButton to='/newproject' text='Criar Projeto'/>
             <img src={savings} alt='Costs' />
         </section>
     )
 }
 
-export default Inicio
+export default Home

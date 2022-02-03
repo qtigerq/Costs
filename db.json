@@ -1,29 +1,29 @@
 {
-    "projetos": [],
-    "categorias": [
+    "projects": [],
+    "categories": [
         {
             "id": 1,
-            "nome": "Infra"
+            "name": "Infra"
         },
         {
             "id": 2,
-            "nome": "Design"
+            "name": "Design"
         },
         {
             "id": 3,
-            "nome": "Planejamento"
+            "name": "Planejamento"
         },
         {
             "id": 4,
-            "nome": "Desenvolvimento"
+            "name": "Desenvolvimento"
         },
         {
             "id": 5,
-            "nome": "Marketing"
+            "name": "Marketing"
         },
         {
             "id": 6,
-            "nome": "SocialMedia"
+            "name": "SocialMedia"
         }
     ]
 }

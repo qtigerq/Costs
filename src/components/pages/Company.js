@@ -1,4 +1,4 @@
-const Empresa = () => {
+const Company = () => {
     return (
         <div>
             <h1>Empresa</h1>
@@ -6,4 +6,4 @@ const Empresa = () => {
     )
 }
 
-export default Empresa
+export default Company

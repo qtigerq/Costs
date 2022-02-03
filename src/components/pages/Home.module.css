@@ -1,4 +1,4 @@
-.inicio_container {
+.home_container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,24 +7,24 @@
     padding: 4em;
 }
 
-.inicio_container h1{
+.home_container h1{
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
-.inicio_container h1 span{
+.home_container h1 span{
     color: #FFBB33;
     padding: 0 0.2em;                       /*Espaçamento lateral nos elementos com span*/
     background-color: #222;
     border-radius: 5px;                     /*Arredonda as bordas*/
 }
 
-.inicio_container p{
+.home_container p{
     margin-bottom: 1.5em;
     color: #7b7b7b;
 }
 
-.inicio_container img{
+.home_container img{
     width: 350px;                          /*Limitar o tamanho da imagem*/
     margin: 2em 0;                         /*Espaçar a imagem dos outros conteúdos*/
 }
