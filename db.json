@@ -23,6 +23,30 @@
       "cos": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "0": {},
+      "name": "Teste",
+      "budget": "123",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cos": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "0": {},
+      "name": "Joao do Pulo",
+      "budget": "39201",
+      "category": {
+        "id": "6",
+        "name": "SocialMedia"
+      },
+      "cos": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
