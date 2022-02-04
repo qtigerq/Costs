@@ -1,0 +1,11 @@
+.loader_container{
+    width: 100%;                            /*Vai ocupar toda a área que puder, e colocar o loader centralizado vertical e horizontalmente*/
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 50px;
+}

@@ -5,6 +5,12 @@ import styles from './ProjectCard.module.css'
 import {BsPencil, BsFillTrashFill} from 'react-icons/bs'
 
 const ProjectCard = ({id, name, budget, category, handleRemove}) => {
+
+    const remove = (event) => {
+        event.preventDefault()                            //Não deixa o botão dar reload na página
+        handleRemove(id)
+    }
+
     return (
         <div className={styles.project_card}>
             <h4>{name}</h4>
@@ -18,7 +24,7 @@ const ProjectCard = ({id, name, budget, category, handleRemove}) => {
                 <Link to='/'>
                     <BsPencil />Editar
                 </Link>
-                <button>
+                <button onClick={remove}>
                     <BsFillTrashFill /> Excluir
                 </button>
             </div>
