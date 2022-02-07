@@ -15,7 +15,7 @@
 .home_container h1 span{
     color: #FFBB33;
     padding: 0 0.2em;                       /*Espaçamento lateral nos elementos com span*/
-    background-color: #222;
+    background-image: linear-gradient(to bottom right, #222, #777);
     border-radius: 5px;                     /*Arredonda as bordas*/
 }
 

@@ -14,15 +14,27 @@
     },
     {
       "0": {},
-      "name": "Garimpo",
-      "budget": "9000",
+      "name": "LOCOMAN",
+      "budget": "12031231",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "5",
+        "name": "Marketing"
       },
       "cos": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "0": {},
+      "name": "Projetosues",
+      "budget": "21231231",
+      "category": {
+        "id": "4",
+        "name": "Desenvolvimento"
+      },
+      "cos": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [

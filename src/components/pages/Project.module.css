@@ -1,0 +1,62 @@
+.project_details {
+    padding-top: 3em;                       /*Afasta o conteudo do topo*/
+}
+
+
+.project_details h2,
+.project_details p {
+    margin-bottom: 0.2em;               /*Espaça as informações verticalmente*/
+}
+
+.project_details h1 {
+    background-image: linear-gradient(to bottom right, #222, #777);
+    color: #FFBB33;
+    padding: 0.1em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.project_details span {                 /*Utilizado como uma label das informaçoes*/
+    font-weight: bold;                  
+}
+
+.details_container,
+.service_form_container {
+    margin-bottom: 1.2em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;                          /*Quando passar de 100% do width, cria uma nova linha*/
+}
+
+.button {
+    background-image: linear-gradient(to bottom right, #222, #777);
+    color: #fff;
+    padding: 0.5em 1em;                      /*Espaçamento estilo botão - maior na horizontal e menor na vertical*/
+    text-decoration: none;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+    max-height: 50px;
+    border: none;
+}
+
+.button:hover{
+    color: #ffbb33;
+}
+
+.project_info {
+    padding: 1em;
+    border-top: 1px solid #7A7A7A;
+    border-bottom: 1px solid #7A7A7A;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;                            /*Fazendo o div consumir 100% do width, em conjunto com o display:flex do details_container/service_form_container faz com que a div caia pra "linha" de baixo e ocupe 100 dela, deixando a de cima sendo dividida igualmente entre os elementos que ficaram.*/
+}
