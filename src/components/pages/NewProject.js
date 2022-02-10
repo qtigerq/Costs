@@ -12,7 +12,7 @@ const NewProject = () => {
         
         //Inicializando atributos
         //Se tivesse um backend real, isso seria feito lá.
-        project.cos = 0
+        project.cost = 0
         project.services = []
 
         fetch('http://localhost:5000/projects', {                       //3. ...nesta rota.

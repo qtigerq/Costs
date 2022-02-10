@@ -60,3 +60,23 @@
     border-top-right-radius: 0px;
     width: 100%;                            /*Fazendo o div consumir 100% do width, em conjunto com o display:flex do details_container/service_form_container faz com que a div caia pra "linha" de baixo e ocupe 100 dela, deixando a de cima sendo dividida igualmente entre os elementos que ficaram.*/
 }
+
+.project_edit {
+    padding: 1em;
+    border-top: 1px solid #7A7A7A;
+    border-bottom: 1px solid #7A7A7A;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;                            /*Fazendo o div consumir 100% do width, em conjunto com o display:flex do details_container/service_form_container faz com que a div caia pra "linha" de baixo e ocupe 100 dela, deixando a de cima sendo dividida igualmente entre os elementos que ficaram.*/
+    display: block;
+    text-align: center;                     /*Pra centralizar o form*/
+}
+
+.project_edit form {
+    width: 350px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}

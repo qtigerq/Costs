@@ -9,7 +9,7 @@ import styles from './ProjectForm.module.css'
 const ProjectForm = ({ handleSubmit, buttonText, projectData }) => {      //handleSubmit vai dizer se é um novo projeto ou um ja existente. ProjectData vai trazer os dados do projeto, caso o formulario seja chamado na tela de edição (ja existente)
 
     const [categories, setCategories] = useState([]);                   //Inicia como arrays vazios, esperando a resposta da API
-    const [project, setProject] = useState([projectData || {}])         //Se o formulario for chamado da tela de edicao, ele vai vir com os dados de ProjectData, senao, vem vazio
+    const [project, setProject] = useState(projectData || {})           //Se o formulario for chamado da tela de edicao, ele vai vir com os dados de ProjectData, senao, vem vazio
 
     useEffect(() => {                                                   //Vai renderizar os dados apenas uma vez, quando for necessário (Sem isso, o React fica renderizando o tempo todo buscando alterações nos dados)
         fetch('http://localhost:5000/categories', {                     //Request para a pseudo-API na url /categorias

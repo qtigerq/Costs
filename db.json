@@ -1,40 +1,50 @@
 {
   "projects": [
     {
-      "0": {},
-      "name": "Teste locura",
-      "budget": "9000",
+      "name": "Tiago",
+      "budget": "100",
       "category": {
-        "id": "4",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
-      "cos": 0,
+      "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "0": {},
-      "name": "LOCOMAN",
-      "budget": "12031231",
+      "name": "Bruno",
+      "budget": "200",
       "category": {
-        "id": "5",
-        "name": "Marketing"
+        "id": "2",
+        "name": "Design"
       },
-      "cos": 0,
+      "cost": 0,
       "services": [],
       "id": 2
     },
     {
-      "0": {},
-      "name": "Projetosues",
-      "budget": "21231231",
+      "name": "Melo",
+      "budget": "310",
       "category": {
-        "id": "4",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Planejamento"
       },
-      "cos": 0,
-      "services": [],
-      "id": 4
+      "cost": 250,
+      "services": [
+        {
+          "name": "Limpeza",
+          "cost": "50",
+          "description": "Limpeza do local do projeto",
+          "id": "1fa0efb6-a29e-4bae-94ae-75710755070b"
+        },
+        {
+          "name": "Serviço maroto",
+          "cost": "200",
+          "description": "Fazer algos",
+          "id": "4b30ac8d-199b-401e-8fdb-331ceedf7a6a"
+        }
+      ],
+      "id": 3
     }
   ],
   "categories": [
